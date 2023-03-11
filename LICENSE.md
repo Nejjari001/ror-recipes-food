@@ -1,4 +1,4 @@
-## Copyright 2023, [ABDELHAFID, NEJJARI]
+## Copyright 2021, [ABDELHAFID, NEJJARI]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this Ruby on Rails application and associated documentation files, to deal in the Ruby on Rails application without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Ruby on Rails application, and to permit persons to whom the Ruby on Rails application is furnished to do so, subject to the following conditions:
 
