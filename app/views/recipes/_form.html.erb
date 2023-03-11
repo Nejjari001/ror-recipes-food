@@ -1,6 +1,6 @@
 <%= form_with(model: recipe) do |form| %>
   <% if recipe.errors.any? %>
-    <div style="color: red">
+    <div style="color: red", class="field mb-3">
       <h2><%= pluralize(recipe.errors.count, "error") %> prohibited this recipe from being saved:</h2>
 
       <ul>
@@ -8,33 +8,37 @@
           <li><%= error.full_message %></li>
         <% end %>
       </ul>
-      
     </div>
   <% end %>
-  <div class="field">
-    <%= form.label :Name %><br />
-    <%= form.text_field :name, placeholder: "Enter recipe name" %>
+
+  <div class="field mb-3">
+    <%= form.label :name, style: "display: block" %>
+    <%= form.text_field :name, class: "form-control" %>
   </div>
-  <div class="field">
-    <%= form.label :"Preparation Time" %><br />
-    <%= form.text_field :preparation_time, placeholder: "Enter preparation time" %>
+
+  <div class="field mb-3">
+    <%= form.label :description, style: "display: block" %>
+    <%= form.text_area :description, class: "form-control" %>
   </div>
-  <div class="field">
-    <%= form.label :"Cooking Time" %><br />
-    <%= form.text_field :cooking_time, placeholder: "Enter cookiing time" %>
+
+  <div class="field mb-3">
+    <%= form.label :preparation_time, style: "display: block" %>
+    <%= form.number_field :preparation_time, class: "form-control"%>
   </div>
-  <div class="field">
-    <%= form.label :Description %><br />
-    <%= form.text_area :description, placeholder: "Enter recipe description" %>
+
+  <div class="field mb-3">
+    <%= form.label :cooking_time, style: "display: block" %>
+    <%= form.number_field :cooking_time, class: "form-control" %>
   </div>
-  <div class="field">
-    <%= form.label :Public %><br />
-    <%= form.label :public, "YES", value: "true"  %>
-    <%= form.radio_button :public, true, checked: true %>
-    <%= form.label :public, "NO", value: "false" %>
-    <%= form.radio_button :public, false %>
-  </div>
+
   <div>
-    <%= form.submit %>
+    <%= form.label :public %>
+    <%= form.check_box :public %>
+  </div>
+   
+  <div class='container d-flex justify-content-center gap-5'>
+      <div class="btn mt-10 mb-10 text-decoration-none">
+      <%= form.submit %>
+    </div>
   </div>
 <% end %>
