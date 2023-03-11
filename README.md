@@ -60,8 +60,6 @@ RoR FOOD RECIPES is a Ruby on Rails application that keeps track of all your foo
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - Create, show or delete a food
 - Create, display or delete a food recipe
 - Display a shopping list
@@ -71,15 +69,11 @@ RoR FOOD RECIPES is a Ruby on Rails application that keeps track of all your foo
 <!--
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 -->
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -144,8 +138,6 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **NEJJARI ABDELHAFID**
 
 - GitHub: [ @Nejjari001](https://github.com/Nejjari001)
@@ -158,8 +150,6 @@ Example:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] A better User Interface
 - [ ] The inventory functionality
@@ -181,8 +171,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project, please give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -190,8 +178,6 @@ If you like this project, please give it a star.
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank Microverse for their continued support. They've provided us with the reading material that have helped us to create this application.
 
@@ -201,15 +187,13 @@ I would like to thank Microverse for their continued support. They've provided u
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
 - **Can I reuse this code?**
 
   - Yes sure, feel free.
 
 - **Are contributions welcome?**
 
-  - Yes please. Contact me at `djmulinde@gmail.com` and I will be happy to add you as a contributor.
+  - Yes please. Contact me at `mr.nejjari.abdelhafid@gmail.com` and I will be happy to add you as a contributor.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -217,7 +201,7 @@ I would like to thank Microverse for their continued support. They've provided u
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
